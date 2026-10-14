@@ -1,0 +1,25 @@
+{
+  "name": "arena-ai-shorts",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "sfx": "python3 scripts/make_sfx.py",
+    "render": "remotion render Archers out/archers.mp4 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell",
+    "still": "remotion still Archers --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "5.2.8",
+    "@fontsource/permanent-marker": "5.2.7",
+    "@remotion/cli": "4.0.529",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "typescript": "5.9.2"
+  }
+}
