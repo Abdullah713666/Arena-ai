@@ -4,6 +4,8 @@ This repo makes animated vertical shorts entirely in code with [Remotion](https:
 
 The first video, `Archers`, is a practice recreation of the "Why video games lied to you about archers" short (1080x1920, 30fps, 25.9s). It is not for publishing, because the script and character designs belong to the original channel.
 
+Full handover documentation (genre forensics, how this video was built, how to make new ones, API reference): [`docs/PLAYBOOK.md`](docs/PLAYBOOK.md).
+
 ## Run
 
 ```bash
